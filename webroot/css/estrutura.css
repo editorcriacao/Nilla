@@ -77,6 +77,16 @@
     height: 140px;
 }
 
+#footer-2{
+    margin: 10px 38%;
+}
+
+#footer-2 li{
+    display: inline;
+    padding: 5px;
+    color: #9c9e9f;
+}
+
 /* NEWSLETTERS */
 #newsletters{
     margin-left: 25px;

@@ -86,11 +86,13 @@
 
                 <div class="traco-cinza" style="width: 450px;"></div>
 
-                <ul>
-                    <li>Mapa do site</li>
-                    <li>Empresa</li>
-                    <li>Contato</li>
+                <ul id="footer-2">
+                    <li><a href="">Mapa do site</a>|</li>
+                    <li><a href="">Empresa</a>|</li>
+                    <li><a href="">Contato</a></li>
                 </ul>
+
+                <p style="margin-left: 31%;">©2011 Nilla assessoria em eventos. Todos os direitos reservados.</p>
                 
             </div>
         </div>
