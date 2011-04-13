@@ -76,10 +76,10 @@ class DATABASE_CONFIG {
 	var $default = array(
 		'driver' => 'mysql',
 		'persistent' => false,
-		'host' => 'mysql05.editorcriacao.com.br',
-		'login' => 'editorcriacao4',
-		'password' => 'Ed1t0r78',
-		'database' => 'editorcriacao4',
+		'host' => 'localhost',
+		'login' => 'root',
+		'password' => 'vertrigo',
+		'database' => 'editorcriacao',
 		'prefix' => '',
                 'encoding' =>'UTF8',
                 'port' => '#'

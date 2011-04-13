@@ -11,7 +11,51 @@
    Syntax recommendation http://www.w3.org/TR/REC-CSS2/
 */
 
-root { 
-    display: block;
+#todo {
+    width: 990px;
+    *width: 975px;
+    margin: 0 auto;
+    border: 2px solid #ddd;
+    clear: both;
+}
+
+/* HEADER */
+
+#menu-header ul{
+    background-color: #e9e9ea;
+    height: 20px;
+    padding: 5px;
+}
+
+#menu-header ul li{
+    display: inline;
+    float: left;
+    padding-left: 5px;
+}
+
+#header{
+    padding: 20px;
+    clear: both;
+    height: 170px;
+}
+
+#header ul li{
+    display: inline;
+    float: left;
+}
+
+#menu{
+    margin-left: 24px;
+    margin-top: 118px;
+}
+
+#menu li{
+    display: inline;
+    z-index: 10;
+}
+
+#header #vetor{
+    margin-top: 118px;
+    margin-left: -50px;
 }
 
