@@ -59,3 +59,46 @@
     margin-left: -50px;
 }
 
+.traco-cinza{
+    border-bottom: 2px solid #ddd;
+    width: 930px;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 10px;
+}
+
+/* CONTENT */
+#content .traco-cinza{
+
+}
+
+/* RODAPE */
+#footer{
+    height: 140px;
+}
+
+/* NEWSLETTERS */
+#newsletters{
+    margin-left: 25px;
+    *margin-left: 20px;
+    padding-top: 20px;
+}
+
+#newsletters li{
+    display: inline;
+    float: left;
+    padding: 5px;
+}
+
+#newsletters li input[type=text]{
+    border: 1px solid #cccccc;
+    padding: 3px;
+}
+
+#newsletters li input[type=submit]{
+    border: 1px solid #dddddd;
+    padding: 3px;
+    color: #58585a;
+    background-color: #e8e8e8;
+    cursor: pointer;
+}

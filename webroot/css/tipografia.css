@@ -40,3 +40,11 @@ a:hover{
     font-size: 17px;
     padding: 10px;
 }
+
+
+/* NEWSLETTERS */
+#newsletters li p{
+    font-family: arial;
+    font-size: 11px;
+    padding-top: 7px;
+}
