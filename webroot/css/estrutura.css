@@ -13,10 +13,10 @@
 
 #todo {
     width: 990px;
-    *width: 975px;
     margin: 0 auto;
     border: 2px solid #ddd;
     clear: both;
+    *width: 975px;
 }
 
 /* HEADER */
@@ -24,7 +24,7 @@
 #menu-header ul{
     background-color: #e9e9ea;
     height: 20px;
-    padding: 5px;
+    padding: 7px 5px 3px 5px;
 }
 
 #menu-header ul li{
@@ -64,12 +64,25 @@
     width: 930px;
     margin: 0 auto;
     clear: both;
-    padding-top: 10px;
+    padding-top: 15px;
+}
+
+#elemento-page{
+    margin-top:-4px;
+    margin-left: 2px;
 }
 
 /* CONTENT */
-#content .traco-cinza{
 
+
+
+#conteudo {
+    margin: 20px 0 20px 85px;
+    width: 812px;
+    height: 500px;
+    padding: 3px;
+    border: 2px solid #ddd;
+    *margin: 30px 0 5px 77px;
 }
 
 /* RODAPE */
@@ -89,9 +102,11 @@
 
 /* NEWSLETTERS */
 #newsletters{
-    margin-left: 25px;
-    *margin-left: 20px;
+    margin-left: 27px;
     padding-top: 20px;
+    *margin-left: 20px;
+    *margin-bottom: -12px;
+
 }
 
 #newsletters li{
@@ -101,14 +116,37 @@
 }
 
 #newsletters li input[type=text]{
-    border: 1px solid #cccccc;
+    border: 1px solid #ccc;
     padding: 3px;
+    color: #888;
+    margin: 0 -5px 0 0;
 }
 
 #newsletters li input[type=submit]{
-    border: 1px solid #dddddd;
-    padding: 3px;
-    color: #58585a;
-    background-color: #e8e8e8;
+    border: 1px solid #ccc;
+    padding: 4px  3px 3px;
+    color: #888;
+    background-color: #e3e3e3;
+    font-size: 11px;
     cursor: pointer;
+    *margin-top: 1px;
+    *padding: 4px 2px 1px 2px;
+}
+
+/* CONTEUDO */
+
+#conteudo {
+
+}
+
+#paginas{
+    padding: 15px 2px 2px 40px;
+   
+}
+
+
+#paginas li{
+    width: 385px;
+    display: inline;
+    float: left;
 }
