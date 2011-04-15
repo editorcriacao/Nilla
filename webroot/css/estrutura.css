@@ -79,7 +79,7 @@
 #conteudo {
     margin: 20px 0 20px 85px;
     width: 812px;
-    height: 500px;
+    height: 485px;
     padding: 3px;
     border: 2px solid #ddd;
     *margin: 30px 0 5px 77px;
@@ -135,6 +135,55 @@
 
 /* CONTEUDO */
 
-#conteudo {
+#passa-slide li{
+    float: left;
+    display: inline;
+    margin: 22px 20px 0 0;
+}
 
+#passa-slide {
+    width: 193px;
+    margin: 0 auto;
+}
+
+#passa-slide li p{
+    margin-top: 3px;
+    *margin-top: 4px;
+}
+
+#slide-anterior {
+    background-image: url(../img/anterior.png);
+    width: 9px;
+    height: 17px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#slide-anterior:hover {
+    background-image: url(../img/anterior-h.png);
+}
+
+#slide-proximo {
+    background-image: url(../img/proximo.png);
+    width: 9px;
+    height: 17px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#slide-proximo:hover {
+    background-image: url(../img/proximo-h.png);
+}
+
+.inativo p{
+    cursor: default;
+    color: #333 !important;
+}
+
+.ativo p{
+    cursor: pointer;
+}
+
+.ativo p:hover{
+    text-decoration: underline;
 }

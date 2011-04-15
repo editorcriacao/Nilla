@@ -67,3 +67,21 @@ a:hover{
     word-spacing: -1px;
     *padding-top: 9px;
 }
+
+
+/* CONTEUDOS */
+
+#slides p {
+    color: #555;
+    font-family: Arial,Helvetica,sans-serif;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+#passa-slide li p{
+    color: #777;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
