@@ -48,7 +48,7 @@
 
                         <ul id="menu">
                             <li style="margin-left: -10px;"><a href="">Empresa</a> |</li>
-                            <li><a href="">Serviços</a> |</li>
+                            <li><a href="<?php echo $this->Html->url('/servicos')?>">Serviços</a> |</li>
                             <li><a href="">Galeria</a> |</li>
                             <li><a href="">Parceiros</a> |</li>
                             <li><a href="">Dicas</a> |</li>

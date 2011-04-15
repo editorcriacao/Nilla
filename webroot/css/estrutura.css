@@ -79,7 +79,7 @@
 #conteudo {
     margin: 20px 0 20px 85px;
     width: 812px;
-    height: 485px;
+    height: 475px;
     padding: 3px;
     border: 2px solid #ddd;
     *margin: 30px 0 5px 77px;
@@ -138,7 +138,7 @@
 #passa-slide li{
     float: left;
     display: inline;
-    margin: 22px 20px 0 0;
+    margin: 18px 20px 0 0;
 }
 
 #passa-slide {
@@ -184,6 +184,10 @@
     cursor: pointer;
 }
 
-.ativo p:hover{
-    text-decoration: underline;
+
+#paginas li{
+    width: 371px;
+    margin-left: 20px;
+    display: inline;
+    float: left;
 }
