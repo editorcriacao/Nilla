@@ -52,7 +52,7 @@
                             <li><a href="<?php echo $this->Html->url('/servicos')?>">Serviços</a> |</li>
                             <li><a href="<?php echo $this->Html->url('/galeria')?>">Galeria</a> |</li>
                             <li><a href="">Parceiros</a> |</li>
-                            <li><a href="">Dicas</a> |</li>
+                            <li><a href="<?php echo $this->Html->url('/dicas')?>">Dicas</a> |</li>
                             <li><a href="">Scrapbook</a> |</li>
                             <li><a href="<?php echo $this->Html->url('/contato')?>">Contato</a></li>
                         </ul>

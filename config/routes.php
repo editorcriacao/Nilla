@@ -30,7 +30,7 @@
         Router::connect('/servicos', array('controller' => 'pages', 'action' => 'display', 'servicos'));
         Router::connect('/galeria', array('controller' => 'pages', 'action' => 'display', 'galeria'));
         Router::connect('/contato', array('controller' => 'pages', 'action' => 'display', 'contato'));
-        Router::connect('/conte-sua-historia', array('controller' => 'pages', 'action' => 'display', 'conte-sua-historia'));
+        Router::connect('/dicas', array('controller' => 'pages', 'action' => 'display', 'dicas'));
         Router::connect('/fale-conosco', array('controller' => 'pages', 'action' => 'display', 'fale-conosco'));
         Router::connect('/cadastro', array('controller' => 'pages', 'action' => 'display', 'cadastro'));
         Router::connect('/gestarbem', array('controller' => 'pages', 'action' => 'display', '/gestarbem'));
