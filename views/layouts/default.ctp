@@ -22,6 +22,7 @@
                 });
             });
         </script>
+       
     </head>
 
     <body>
@@ -49,11 +50,11 @@
                         <ul id="menu">
                             <li style="margin-left: -10px;"><a href="">Empresa</a> |</li>
                             <li><a href="<?php echo $this->Html->url('/servicos')?>">Serviços</a> |</li>
-                            <li><a href="">Galeria</a> |</li>
+                            <li><a href="<?php echo $this->Html->url('/galeria')?>">Galeria</a> |</li>
                             <li><a href="">Parceiros</a> |</li>
                             <li><a href="">Dicas</a> |</li>
                             <li><a href="">Scrapbook</a> |</li>
-                            <li><a href="">Contato</a></li>
+                            <li><a href="<?php echo $this->Html->url('/contato')?>">Contato</a></li>
                         </ul>
 
                     </li>

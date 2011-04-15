@@ -79,7 +79,7 @@
 #conteudo {
     margin: 20px 0 20px 85px;
     width: 812px;
-    height: 500px;
+    height: 475px;
     padding: 3px;
     border: 2px solid #ddd;
     *margin: 30px 0 5px 77px;
@@ -122,10 +122,10 @@
     margin: 0 -5px 0 0;
 }
 
-#newsletters li input[type=submit]{
+#newsletters li input[type=submit], input[type=submit]{
     border: 1px solid #ccc;
     padding: 4px  3px 3px;
-    color: #888;
+    color: #58585a;
     background-color: #e3e3e3;
     font-size: 11px;
     cursor: pointer;
@@ -135,18 +135,63 @@
 
 /* CONTEUDO */
 
-#conteudo {
-
+#passa-slide li{
+    float: left;
+    display: inline;
+    margin: 18px 20px 0 0;
 }
 
-#paginas{
-    padding: 15px 2px 2px 40px;
-   
+#passa-slide {
+    width: 193px;
+    margin: 0 auto;
+}
+
+#passa-slide li p{
+    margin-top: 3px;
+    *margin-top: 4px;
+}
+
+#slide-anterior {
+    background-image: url(../img/anterior.png);
+    width: 9px;
+    height: 17px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#slide-anterior:hover {
+    background-image: url(../img/anterior-h.png);
+}
+
+#slide-proximo {
+    background-image: url(../img/proximo.png);
+    width: 9px;
+    height: 17px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#slide-proximo:hover {
+    background-image: url(../img/proximo-h.png);
+}
+
+.inativo p{
+    cursor: default;
+    color: #333 !important;
+}
+
+.ativo p{
+    cursor: pointer;
 }
 
 
 #paginas li{
-    width: 385px;
+    width: 371px;
+    margin-left: 20px;
     display: inline;
     float: left;
+}
+
+.input{
+    padding: 5px;
 }
