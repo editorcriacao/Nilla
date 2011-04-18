@@ -36,6 +36,7 @@
         Router::connect('/scrapbook', array('controller' => 'pages', 'action' => 'display', 'scrapbook'));
         Router::connect('/contato', array('controller' => 'pages', 'action' => 'display', 'contato'));
         Router::connect('/mapa-do-site', array('controller' => 'pages', 'action' => 'display', 'mapa-do-site'));
+
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */

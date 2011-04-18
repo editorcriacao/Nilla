@@ -1,27 +1,25 @@
 <ul id="paginas">
-    <li id="texto-paginas" style="width: 400px;">
+    <li id="texto-paginas-dicas" style="width: 369px;">
         <br />
         <span style="margin-left: -30px;"> <?php echo $this->Html->image('img-dicas.png')?></span>
         <br />
-        <?php echo $this->Form->create('Contato', array('action'=>'contato'))?>
-        <?php echo $this->Form->input('nome', array('label'=>'Nome:', 'size'=>40))?>
-        <?php echo $this->Form->input('telefone', array('label'=>'Telefone:', 'size'=>20))?>
-        <?php echo $this->Form->input('celular', array('label'=>'Celular:', 'size'=>20))?>
-        <?php echo $this->Form->input('email', array('label'=>'E-mail:', 'size'=>20))?>
-        <?php echo $this->Form->input('tipoEvento', array('label'=>'Tipo de evento:', 'type'=>'select'))?>
-        <?php echo $this->Form->input('mensagem', array('label'=>'Mensagem:', 'type'=>'textarea'))?>
-        <?php echo $this->Form->submit('Enviar', array('style'=>'float: right; margin-right: 35px;'))?>
-        <?php echo $this->Form->end()?>
+        <br />
+        <p> <img src="img/lista.png" style="margin-right:8px; padding-bottom: 2px;"/><a href="#">Lista de Enxoval</a></p>
+        <p> <img src="img/lista.png" style="margin-right:8px; padding-bottom: 2px;"/><a href="#">Lista de Presentes</a></p>
+        <p> <img src="img/lista.png" style="margin-right:8px; padding-bottom: 2px;"/><a href="#">Lista para chá-de-cozinha</a></p>
+        <p> <img src="img/lista.png" style="margin-right:8px; padding-bottom: 2px;"/><a href="#">Brincadeiras para o chá de cozinha</a></p>
+        <p> <img src="img/lista.png" style="margin-right:8px; padding-bottom: 2px;"/><a href="#">Caligrafia correta para convites</a></p>
+        <p> <img src="img/lista.png" style="margin-right:8px; padding-bottom: 2px;"/><a href="#">Comemorações de Bodas</a></p>
+        <p> <img src="img/lista.png" style="margin-right:8px; padding-bottom: 2px;"/><a href="#">Como contratar um bom DJ?</a></p>
+        <p> <img src="img/lista.png" style="margin-right:8px; padding-bottom: 2px;"/><a href="#">Convidados - atenção ao traje!</a></p>
+        <p> <img src="img/lista.png" style="margin-right:8px; padding-bottom: 2px;"/><a href="#">Documentos para casamento civil</a></p>
+        <p> <img src="img/lista.png" style="margin-right:8px; padding-bottom: 2px;"/><a href="#">Escolha das músicas da cerimônia</a></p>
+        <p> <img src="img/lista.png" style="margin-right:8px; padding-bottom: 2px;"/><a href="#">Etiqueta p/ madrinhas e padrinhos</a></p>
+        <p> <img src="img/lista.png" style="margin-right:8px; padding-bottom: 2px;"/><a href="#">Situações delicadas no cerimonial</a></p>
+
     </li>
 
-    <li style="margin-top: -250px; margin-left: 490px">
-        <div id="caixa-endereco" style="border: 1px solid #c6c6c6; width: 300px; padding: 15px; overflow: scroll; height: 400px;">
-            <p>Rua: tal n°000 - Bairro: tal</p>
-            <p>São Paulo - SP</p>
-            <p>Tel.: </p>
-            <p>Cel.:</p>
-             <?php echo $this->Html->image('mapa-google.png', array('style'=>'float: right; margin-top: -68px;'))?>
-        </div>
+    <li id="dicas-texto">
 
     </li>
 </ul>

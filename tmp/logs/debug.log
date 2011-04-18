@@ -1602,3 +1602,7 @@
 2011-04-13 11:58:59 Debug: Notice (1024): Please change the value of 'Security.cipherSeed' in app/config/core.php to a numeric (digits only) seed value specific to your application in [C:\Arquivos de programas\VertrigoServ\www\Nilla\cake\libs\debugger.php, line 688]
 2011-04-13 11:59:40 Debug: Notice (1024): Please change the value of 'Security.salt' in app/config/core.php to a salt value specific to your application in [C:\Arquivos de programas\VertrigoServ\www\Nilla\cake\libs\debugger.php, line 684]
 2011-04-13 11:59:40 Debug: Notice (1024): Please change the value of 'Security.cipherSeed' in app/config/core.php to a numeric (digits only) seed value specific to your application in [C:\Arquivos de programas\VertrigoServ\www\Nilla\cake\libs\debugger.php, line 688]
+2011-04-18 15:38:58 Debug: Notice (8): Use of undefined constant data - assumed 'data' in [C:\Arquivos de programas\VertrigoServ\www\Nilla\app\views\pages\scrapbook.ctp, line 5]
+2011-04-18 15:38:58 Debug: Notice (8): Use of undefined constant Scrapbook - assumed 'Scrapbook' in [C:\Arquivos de programas\VertrigoServ\www\Nilla\app\views\pages\scrapbook.ctp, line 5]
+2011-04-18 15:39:02 Debug: Notice (8): Use of undefined constant data - assumed 'data' in [C:\Arquivos de programas\VertrigoServ\www\Nilla\app\views\pages\scrapbook.ctp, line 5]
+2011-04-18 15:39:02 Debug: Notice (8): Use of undefined constant Scrapbook - assumed 'Scrapbook' in [C:\Arquivos de programas\VertrigoServ\www\Nilla\app\views\pages\scrapbook.ctp, line 5]

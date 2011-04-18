@@ -62,10 +62,10 @@ a:hover{
 #newsletters li p{
     font-family: Arial,Helvetica,sans-serif;
     font-size: 11px;
-    padding-top: 7px;
+    padding-top: 11px;
     color: #777;
     word-spacing: -1px;
-    *padding-top: 9px;
+    *padding-top: 13px;
 }
 
 
@@ -100,7 +100,7 @@ a:hover{
     width: 340px;
     font-family: Arial,Helvetica,sans-serif;
     font-size: 12px;
-    color: #87888a;
+    color: #888;
     line-height: 145%;
     text-align: justify;
 }
@@ -109,13 +109,15 @@ a:hover{
     padding-left: 30px;
 }
 
+
 #texto-paginas label{
-    color: #888888;
+    color: #888;
     font-family: arial;
     font-size: 14px;
     width: 100px;
     display: inline-block;
 }
+
 
 /* SCRAPBOOK */
 
@@ -128,7 +130,16 @@ a:hover{
 }
 
 #scrap-list a:hover{
+    color: #a07798;
+}
+
+#scrap-list a:hover{
     text-decoration: none;
+}
+
+#scrap-list span{
+    color: #444444;
+    font-family: arial;
 }
 
 #scrap-list a span{
@@ -142,4 +153,22 @@ a:hover{
     line-height: 130%;
 }
 
+#texto-paginas-dicas {
+    padding-left: 30px;
+}
 
+#texto-paginas-dicas p {
+    margin-bottom: 8px;
+    float: left;
+}
+
+#texto-paginas-dicas a {
+    color: #666;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+#texto-paginas-dicas a:hover {
+    color: #a07798;
+    text-decoration: none;
+}

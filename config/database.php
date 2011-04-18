@@ -79,7 +79,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => 'vertrigo',
-		'database' => 'editorcriacao',
+		'database' => 'nilla',
 		'prefix' => '',
                 'encoding' =>'UTF8',
                 'port' => '#'
