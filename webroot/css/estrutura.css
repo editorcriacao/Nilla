@@ -119,18 +119,30 @@
     border: 1px solid #ccc;
     padding: 3px;
     color: #888;
-    margin: 0 -5px 0 0;
+    margin: 0 -16px 0 0;
+
+
 }
 
-#newsletters li input[type=submit], input[type=submit]{
+#newsletters li input[type=submit] {
     border: 1px solid #ccc;
-    padding: 4px  3px 3px;
+    padding: 4px 4px 3px 4px;
     color: #58585a;
     background-color: #e3e3e3;
     font-size: 11px;
     cursor: pointer;
-    *margin-top: 1px;
+    margin-top: 5px;
+    margin-left: 5px;
+    *margin-top: 6px;
     *padding: 4px 2px 1px 2px;
+
+    border-radius:0;
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+}
+
+#newsletters li input[type=submit]:hover {
+    background-color: #e0d2e2;
 }
 
 /* CONTEUDO */
@@ -194,4 +206,33 @@
 
 .input{
     padding: 5px;
+}
+
+#dicas-texto {
+    overflow-y: scroll;
+    width: 371px;
+    height: 474px;
+    border: 1px solid #ccc;
+}
+
+input[type=submit] {
+    border: 1px solid #ccc;
+    padding: 3px 10px 1px 10px;
+    color: #666;
+    background-color: #e3e3e3;
+    font-size: 10px;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-left: -3px;
+    *margin-top: 4px;
+    *padding: 3px 2px 0 2px;
+
+    border-radius:6px;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+}
+
+input[type=submit]:hover {
+    background-color: #e0d2e2;
+    color: #444;
 }

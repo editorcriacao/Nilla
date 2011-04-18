@@ -1,5 +1,5 @@
 <ul id="paginas">
-    <li id="texto-paginas">
+    <li id="texto-ptaginas">
         <br />
         <span style="margin-left: -30px;"> <?php echo $this->Html->image('historia.png') ?></span>
         <br />

@@ -728,3 +728,4 @@
 2011-03-31 12:21:06 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> 2006: MySQL server has gone away</span> in [C:\Arquivos de programas\VertrigoServ\www\GestarBem\cake\libs\model\datasources\dbo_source.php, line 681]
 >>>>>>> Alteracoes feitas por Taffarel
 >>>>>>> 3aa4e7af6e355f80c71e1b541bcbb2ebdc0074d9
+2011-04-18 09:33:18 Warning: Warning (2): session_destroy() [<a href='http://php.net/function.session-destroy'>function.session-destroy</a>]: Session object destruction failed in [C:\Documents and Settings\Amanda\Desktop\VertrigoServ\www\Nilla\cake\libs\cake_session.php, line 458]
