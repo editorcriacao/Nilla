@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Config|a:3:{s:9:"userAgent";s:32:"2ce1709bcfb73c43549e702ff2926c59";s:4:"time";i:1302907252;s:7:"timeout";i:10;}
+=======
+Config|a:3:{s:9:"userAgent";s:32:"2ce1709bcfb73c43549e702ff2926c59";s:4:"time";i:1302892491;s:7:"timeout";i:10;}
+>>>>>>> 8922278dfc0b8a87becf721d3424b225fad4b51d

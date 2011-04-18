@@ -28,6 +28,7 @@
  */
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
         Router::connect('/servicos', array('controller' => 'pages', 'action' => 'display', 'servicos'));
+<<<<<<< HEAD
         Router::connect('/galeria', array('controller' => 'pages', 'action' => 'display', 'galeria'));
         Router::connect('/contato', array('controller' => 'pages', 'action' => 'display', 'contato'));
         Router::connect('/dicas', array('controller' => 'pages', 'action' => 'display', 'dicas'));
@@ -35,6 +36,16 @@
         Router::connect('/cadastro', array('controller' => 'pages', 'action' => 'display', 'cadastro'));
         Router::connect('/gestarbem', array('controller' => 'pages', 'action' => 'display', '/gestarbem'));
         Router::connect('/esqueci-senha', array('controller' => 'pages', 'action' => 'display', 'recuperar-senha'));
+=======
+        Router::connect('/historia', array('controller' => 'pages', 'action' => 'display', 'historia'));
+        Router::connect('/missao-e-valores', array('controller' => 'pages', 'action' => 'display', 'missao-e-valores'));
+        Router::connect('/galeria', array('controller' => 'pages', 'action' => 'display', 'galeria'));
+        Router::connect('/parceiros', array('controller' => 'pages', 'action' => 'display', 'parceiros'));
+        Router::connect('/dicas', array('controller' => 'pages', 'action' => 'display', 'dicas'));
+        Router::connect('/scrapbook', array('controller' => 'pages', 'action' => 'display', 'scrapbook'));
+        Router::connect('/contato', array('controller' => 'pages', 'action' => 'display', 'contato'));
+        Router::connect('/mapa-do-site', array('controller' => 'pages', 'action' => 'display', 'mapa-do-site'));
+>>>>>>> 8922278dfc0b8a87becf721d3424b225fad4b51d
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */

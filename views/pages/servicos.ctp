@@ -1,7 +1,7 @@
 <ul id="paginas">
     <li id="texto-paginas">
         <br />
-        <span style="margin-left: -30px;"> <?php echo $this->Html->image('servicos.png')?></span>
+        <span style="margin-left: -27px; margin-top: 5px;"> <?php echo $this->Html->image('servicos.png')?></span>
         <br />
         <br />
         <h5>- Casamentos</h5>
