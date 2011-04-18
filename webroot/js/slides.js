@@ -7,8 +7,8 @@
 
 
 var simpleGallery_navpanel={
-	panel: {height:'75px', opacity:0.5, paddingTop:'5px', fontStyle:'bold 11px Verdana'}, //customize nav panel container
-	images: [ 'img/esquerda.png', 'img/play.png', 'img/direita.png', 'pause.gif'], //nav panel images (in that order)
+	panel: {height:'75px', opacity:0.0, paddingTop:'5px', fontStyle:'bold 11px Verdana'}, //customize nav panel container
+	images: [ 'img/esquerda.png', 'img/play.png', 'img/direita.png', 'img/play.png'], //nav panel images (in that order)
 	imageSpacing: {offsetTop:[-7, 0, -7], spacing:10}, //top offset of left, play, and right images, PLUS spacing between the 3 images
 	slideduration: 500 //duration of slide up animation to reveal panel
 }
@@ -38,7 +38,7 @@ function simpleGallery(settingarg){
 	var slideshow=this
 	jQuery(document).ready(function($){
 		var setting=slideshow.setting
-		setting.$wrapperdiv=$('#'+setting.wrapperid).css({position:'relative', visibility:'visible', background:'black', overflow:'hidden', width:setting.dimensions[0], height:setting.dimensions[1]}).empty() //main gallery DIV
+		setting.$wrapperdiv=$('#'+setting.wrapperid).css({position:'relative', visibility:'visible', background:'white', overflow:'hidden', width:setting.dimensions[0], height:setting.dimensions[1]}).empty() //main gallery DIV
 		if (setting.$wrapperdiv.length==0){ //if no wrapper DIV found
 			alert("Error: DIV with ID \""+setting.wrapperid+"\" not found on page.")
 			return
@@ -50,9 +50,9 @@ function simpleGallery(settingarg){
 		setting.navbuttons=simpleGallery.routines.addnavpanel(setting) //get 4 nav buttons DIVs as DOM objects
 		if (setting.longestdesc!="") //if at least one slide contains a description (feature is enabled)
 			setting.descdiv=simpleGallery.routines.adddescpanel(setting)
-		$(setting.navbuttons).filter('img.navimages').css({opacity:0.8})
+		$(setting.navbuttons).filter('img.navimages').css({opacity:1})
 			.bind('mouseover mouseout', function(e){
-				$(this).css({opacity:(e.type=="mouseover")? 1 : 0.8})
+				$(this).css({opacity:(e.type=="mouseover")? 1 : 1})
 			})
 			.bind('click', function(e){
 				var keyword=e.target.title.toLowerCase()
@@ -99,12 +99,12 @@ simpleGallery.prototype={
 			var $playbutton=$(this.setting.navbuttons).eq(1)
 			if (!this.setting.ispaused){ //if pause Gallery
 				this.setting.autoplay[0]=false
-				$playbutton.attr({title:'Play', src:simpleGallery_navpanel.images[1]})
+				$playbutton.attr({title:'', src:simpleGallery_navpanel.images[1]})
 			}
 			else if (this.setting.ispaused){ //if play Gallery
 				this.setting.autoplay[0]=true
 				this.setting.playtimer=setTimeout(function(){slideshow.showslide('next')}, this.setting.autoplay[1])
-				$playbutton.attr({title:'Pause', src:simpleGallery_navpanel.images[3]})
+				$playbutton.attr({title:'', src:simpleGallery_navpanel.images[3]})
 			}
 			slideshow.setting.ispaused=!slideshow.setting.ispaused
 		}
@@ -179,18 +179,18 @@ simpleGallery.routines={
 		var interfaceHTML=''
 		for (var i=0; i<3; i++){
 			var imgstyle='position:relative; border:0; cursor:hand; cursor:pointer; top:'+simpleGallery_navpanel.imageSpacing.offsetTop[i]+'px; margin-right:'+(i!=2? simpleGallery_navpanel.imageSpacing.spacing+'px' : 0)
-			var title=(i==0? 'Prev' : (i==1)? (setting.ispaused? 'Play' : 'Pause') : 'Next')
+			var title=(i==0? 'Prev' : (i==1)? (setting.ispaused? '' : '') : 'Next')
 			var imagesrc=(i==1)? simpleGallery_navpanel.images[(setting.ispaused)? 1 : 3] : simpleGallery_navpanel.images[i]
 			interfaceHTML+='<img class="navimages" title="' + title + '" src="'+ imagesrc +'" style="'+imgstyle+'" /> '
 		}
-		interfaceHTML+='<div class="gallerystatus" style="margin-top:1px">' + (setting.curimage+1) + '/' + setting.imagearray.length + '</div>'
+		interfaceHTML+='<div class="gallerystatus" style="margin-top:-38px; padding: 10px; background-color: #fff; width: 40px; margin-left: 46.2%; *margin-left: 0%; border-radius:15px; -moz-border-radius:15px; -webkit-border-radius:15px; opacity:0.65; -moz-opacity: 0.65; filter: alpha(opacity=65);">' + (setting.curimage+1) + '/' + setting.imagearray.length + '</div>'
 		setting.$navpanel=$('<div class="navpanellayer"></div>')
 			.css({position:'absolute', width:'100%', height:setting.panelheight, left:0, top:setting.dimensions[1], font:simpleGallery_navpanel.panel.fontStyle, zIndex:'1001'})
 			.appendTo(setting.$wrapperdiv)
 		$('<div class="navpanelbg"></div><div class="navpanelfg"></div>') //create inner nav panel DIVs
 			.css({position:'absolute', left:0, top:0, width:'100%', height:'100%'})
-			.eq(0).css({background:'black', opacity:simpleGallery_navpanel.panel.opacity}).end() //"navpanelbg" div
-			.eq(1).css({paddingTop:simpleGallery_navpanel.panel.paddingTop, textAlign:'center', color:'white'}).html(interfaceHTML).end() //"navpanelfg" div
+			.eq(0).css({background:'white', opacity:simpleGallery_navpanel.panel.opacity}).end() //"navpanelbg" div
+			.eq(1).css({paddingTop:simpleGallery_navpanel.panel.paddingTop, textAlign:'center', color:'black'}).html(interfaceHTML).end() //"navpanelfg" div
 			.appendTo(setting.$navpanel)
 		return setting.$navpanel.find('img.navimages, div.gallerystatus').get() //return 4 nav related images and DIVs as DOM objects
 	},

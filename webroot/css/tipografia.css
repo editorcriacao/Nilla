@@ -117,4 +117,29 @@ a:hover{
     display: inline-block;
 }
 
+/* SCRAPBOOK */
+
+#scrap-list a{
+    width: 170px;
+    display: block;
+    height: 25px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#scrap-list a:hover{
+    text-decoration: none;
+}
+
+#scrap-list a span{
+    color:#bca5b7;
+}
+
+#foto-scrapbook span p{
+    
+    color: #444444;
+    font-family: arial;
+    line-height: 130%;
+}
+
 

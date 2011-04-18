@@ -15,7 +15,7 @@
     </li>
 
     <li style="margin-top: -250px; margin-left: 490px">
-        <div id="caixa-endereco" style="border: 1px solid #c6c6c6; width: 250px; padding: 15px;">
+        <div id="caixa-endereco" style="border: 1px solid #c6c6c6; width: 300px; padding: 15px; overflow: scroll; height: 400px;">
             <p>Rua: tal n°000 - Bairro: tal</p>
             <p>São Paulo - SP</p>
             <p>Tel.: </p>

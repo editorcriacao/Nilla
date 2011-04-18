@@ -195,3 +195,29 @@
 .input{
     padding: 5px;
 }
+
+
+/* SCRAPBOOK */
+#scrap-list{
+    border: 1px solid #dedede;
+    padding: 10px;
+    overflow-y: scroll;
+    height: 300px;
+    width: 300px;
+}
+
+#foto-scrapbook{
+    position: relative;
+}
+
+#foto-scrapbook span{
+    width: 336px;
+    position: absolute;
+    bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+
+    opacity:0.65;
+    -moz-opacity: 0.65;
+    filter: alpha(opacity=65);
+}
