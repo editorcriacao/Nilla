@@ -172,3 +172,7 @@ a:hover{
     color: #a07798;
     text-decoration: none;
 }
+
+#dicas-texto p{
+    padding: 5px;
+}

@@ -54,6 +54,32 @@
     z-index: 10;
 }
 
+/* MENU */
+
+#subMenu{
+    display: none;
+    position: absolute;
+    width: 435px;
+    padding: 7px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border: 1px solid #ededed;
+    border-top: 0px;
+    z-index: 100;
+    *margin-left: -85px;
+    *margin-top: 23px;
+
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+
+#menu li:hover #subMenu { display: block; }
+
+#menu li #subMenu li{
+    display: inline-block;
+}
+
 #header #vetor{
     margin-top: 118px;
     margin-left: -50px;

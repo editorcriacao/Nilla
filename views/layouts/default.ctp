@@ -48,7 +48,16 @@
                     <li>
 
                         <ul id="menu">
-                            <li style="margin-left: -10px;"><a href="<?php echo $this->Html->url('/historia')?>">Empresa</a> |</li>
+
+                            <li style="margin-left: -10px;">
+                                <a href="" id="empresa">Empresa</a>
+                                <ul id="subMenu">
+                                    <li><a href="">História</a> |</li>
+                                    <li><a href="">Missão e valores</a> |</li>
+                                    <li><a href="">Diferencial e beneficios</a></li>
+                                </ul>
+                                |</li>
+
                             <li><a href="<?php echo $this->Html->url('/servicos')?>">Serviços</a> |</li>
                             <li><a href="<?php echo $this->Html->url('/galeria')?>">Galeria</a> |</li>
                             <li><a href="<?php echo $this->Html->url('/parceiros')?>">Parceiros</a> |</li>
